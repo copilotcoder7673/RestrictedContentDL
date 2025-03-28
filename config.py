@@ -40,7 +40,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "8019809817:AAHN9iPbP2MNZXsOHK9inNi04DQx8hk0uE4"
 OWNER_ID = list(map(int, getenv("OWNER_ID", "7303810912").split()))
 MONGO_DB = getenv("MONGO_DB", "mongodb+srv://ytpremium4434360:zxx1VPDzGW96Nxm3@itssmarttoolbot.dhsl4.mongodb.net/?retryWrites=true&w=majority&appName=ItsSmartToolBot")
 LOG_GROUP = getenv("LOG_GROUP", "-1001641417356")
-CHANNEL_ID = int(getenv("CHANNEL_ID", "-1002399634158"))
+CHANNEL_ID = int(getenv("CHANNEL_ID", "-1002181773077"))
 FREEMIUM_LIMIT = int(getenv("FREEMIUM_LIMIT", "0"))
 PREMIUM_LIMIT = int(getenv("PREMIUM_LIMIT", "500"))
 WEBSITE_URL = getenv("WEBSITE_URL", "upshrink.com")
