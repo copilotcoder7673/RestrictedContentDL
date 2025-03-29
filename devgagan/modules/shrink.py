@@ -58,7 +58,7 @@ async def token_handler(client, message):
     msg = await app.get_messages(chat_id, 796)
     user_id = message.chat.id
     if len(message.command) <= 1:
-        image_url = "https://i.postimg.cc/ZK1Spgtv/photo-2025-03-29-22-18-14.jpg"
+        image_url = "https://t.me/BotsDevZone/259"
         join_button = InlineKeyboardButton("Join Channel", url="https://t.me/Modvip_rm")
         premium = InlineKeyboardButton("Get Premium", url="https://t.me/abirxdhackz")   
         keyboard = InlineKeyboardMarkup([
@@ -67,7 +67,7 @@ async def token_handler(client, message):
         ])
          
         await message.reply_photo(
-            msg.photo.file_id,
+            image_url,
             caption=(
                 "Hi 👋 Welcome, Wanna intro...?\n\n"
                 "✳️ I can save posts from channels or groups where forwarding is off. I can download videos/audio from YT, INSTA, ... social platforms\n"
@@ -129,4 +129,3 @@ async def smart_handler(client, message):
             [[InlineKeyboardButton("Verify the token now...", url=shortened_url)]]
         )
         await message.reply("Click the button below to verify your free access token: \n\n> What will you get ? \n1. No time bound upto 3 hours \n2. Batch command limit will be FreeLimit + 20 \n3. All functions unlocked", reply_markup=button)
- 
