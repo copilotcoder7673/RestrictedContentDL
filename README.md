@@ -66,6 +66,11 @@ see our live bot kn telegram to check the features [Advance Content Saver Bot](h
 - **`cancel`**: 🚫 Cancel batch process.
 
 
+## Deploy to Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy/?template=https://github.com/copilotcoder7673/RestrictedContentDL)
+
+
 ## ⚙️ Required Variables
 
 <details>
